@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Raj Tvs</title>
+	<link rel="stylesheet" type="text/css" href="b.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+	<nav>
+		<img src="img/TVS-logo.png">
+	</nav></header>
+<div id="auto"><marquee scrollamount="20"> WELCOME TO RAJ   TVS</marquee></div>
+<div id="Slider">
+	<div id="img1"></div>
+	<div id="img2"></div>
+	<div id="img3"></div>
+	
+</div>
+<div id="footer"><p>VEHICLES IN STOCK....</p>
+	<div>
+	<img  id="imga1"  src="img/tvs-apache-rtr-200-4v-p31.jpg"></div>
+	
+	<div id="inf1"><marquee direction="up" scrollamount="4" > 2018 TVS Apache RTR 200
+		<br> ABS launched at <strong>Rs 1.07 lakh</strong></h3><br>
+         5th Feb 2018 11:47 am<br>
+         Carburetted version of Apache RTR<br>
+         200 gets dual-channel ABS;<br>
+         also gets equipped with Rear Wheel <br>
+         Lift-off Protection (RLP) system.</marquee>
+   </div>
+   <div>
+ <img  id="imga2" src="img/0_578_872_0_70_http___cdni.autocarindia.com_ExtraImages_20180205112010_TVS-Apache-RTR-2004V-ABS.jpg">
+</div>
+<div id="inf2"><marquee direction="up" scrollamount="4">Star City Plus key highlights<br>
+Price	<strong>₹ 48,116</strong><br>
+Top speed	90 Kmph<br>
+Mileage	  86 kmpl<br>
+Colours	  Chocolate GoldWhite GoldBlack<br>
+ GoldBlack SilverBlack BlueMatte 
+<br>ScarlettBlack GreyOscar BlackShow-Stopper<br>
+ BlueCelebrity ScarlettBlack </marquee>
+</div>
+
+
+	<div>
+    <img  id="imga3" src="img/TVS_MOTOR_Star_City_Plus_L_1.jpg">
+    </div>
+    <div id="inf3"><marquee direction="up" scrollamount="4">	
+    	Price in India:<strong> Rs. 60,000</strong><br>
+    	109.65 cc<br>
+Maximum Power	8.7 BHP @ 7500 rpm<br>
+Maximum Torque	8.7 Nm @ 5500 rpm<br>
+Number of Cylinders	1<br>
+Number of Gears	Automatic<br>
+Ground Clearance	115 mm<br>
+Kerb/Wet Weight	93 kg<br>
+Fuel Tank Capacity	5.1 litres<br></marquee>
+</div>
+<div ><img id="imga4"  src="img/tvs-dazz-dfi-640.jpg"></img></div>
+<div id= "inf4"><marquee direction="up" scrollamount="4">
+	From<strong> Rs. 91,615 to 1,06,415</strong>
+    	TVS Apache RTR 200 4V <br>
+		Race Edition 2.0<br>
+ GoldBlack SilverBlack BlueMatte <br>
+ ScarlettBlack GreyOscar<br>
+35 Kmpl to 44 Kmpl 197 CC</marquee></div>
+	
+ </div>
+ <div id="last"><img src="img/IMG_20180528_095839.jpg" id="map1"></img></div>
+<div id="contact"><p id="offer"><marquee behaviour="scroll" direction="up" scrollamount="3" >Don't miss the chance .....Grab it now....</marquee></p>
+<marquee ><i class="fa fa-google-plus" style="font-size:36px"><h5>Prambirsingh897@gmail.com</h5></i></marquee>
+<marquee ><i class="fa fa-whatsapp" style="font-size:48px;color:white;background-color:green"></i><h3>8539967594</h3></marquee>
+</div>
+<script type="text/javascript">
+	var bannerStatus = 1;
+	var bannerTimer = 4000;
+	window.onload = function() {
+ setInterval(function(){
+		bannerLoop();
+	},bannerTimer);
+	}
+	
+
+	function bannerLoop(){
+		if(bannerStatus === 1){
+			document.getElementById("img2").style.opacity = "0";
+
+			document.getElementById("img1").style.right = "0px";
+			setTimeout(function (){
+            document.getElementById("img1").style.zIndex = "1000";
+			document.getElementById("img2").style.right = "-1362px";
+			document.getElementById("img2").style.zIndex = "1500";
+			document.getElementById("img3").style.right = "1362px";
+			document.getElementById("img3").style.zIndex = "500px";
+			},500);
+			setTimeout(function (){
+			document.getElementById("img2").style.opacity = "1";
+			},1000);
+			bannerStatus = 2;
+
+		}
+		else if(bannerStatus === 2){
+			document.getElementById("img3").style.opacity = "0";
+
+			document.getElementById("img2").style.right = "0px";
+			setTimeout(function (){
+            document.getElementById("img2").style.zIndex = "1000";
+			document.getElementById("img3").style.right = "-1362px";
+			document.getElementById("img3").style.zIndex = "1500";
+			document.getElementById("img1").style.right = "1362px";
+			document.getElementById("img1").style.zIndex = "500px";
+			},500);
+			setTimeout(function (){
+			document.getElementById("img3").style.opacity = "1";
+			},1000);
+			bannerStatus = 3;
+
+		}else if(bannerStatus === 3){
+			document.getElementById("img1").style.opacity = "0";
+
+			document.getElementById("img3").style.right = "0px";
+			setTimeout(function (){
+            document.getElementById("img3").style.zIndex = "1000";
+			document.getElementById("img1").style.right = "-1362px";
+			document.getElementById("img1").style.zIndex = "1500";
+			document.getElementById("img2").style.right = "1362px";
+			document.getElementById("img2").style.zIndex = "500px";
+			},500);
+			setTimeout(function (){
+			document.getElementById("img1").style.opacity = "1";
+			},1000);
+			bannerStatus = 1;
+
+		}
+	}
+	
+</script>
+
+</body>
+</html>

@@ -1,0 +1,322 @@
+*{
+	margin:0px;
+}
+
+#Slider{
+	
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-color: black;
+	overflow: hidden;
+	margin-top: 2px;
+	border-bottom:1px solid black;
+	
+	max-width: 100%;
+	min-width: 40%;
+	box-shadow: 0px 2px 4px 0px black;
+
+
+}
+#Slider #img1{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url(img/maxresdefault.jpg);
+	background-origin: center;
+	background-size: cover;
+	transition: all ease-in-out 500ms;
+}
+#Slider #img2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url(img/tvs-apache-200-1024x683.jpg);
+	background-size: cover;
+	transition: all ease-in-out 500ms;
+	background-origin: center;
+}
+#Slider #img3{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url(img/TVS-Scooty-Pep-Plus-Silver.jpg);
+	background-size: contain;
+	transition: all ease-in-out 500ms;
+
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-image: url(img/images.jpg);
+	background-size: cover;
+border-bottom: 1px solid black;
+
+box-shadow: 0px 2px 8px 0px white;
+border-top: 2px solid white;
+
+	
+}
+img{
+	width: 150px;
+	float: right;
+	height: 70px;
+	
+}
+#auto{
+	color: red;
+	font-size: 40px;
+	font-family: sans-serif;
+	position: absolute;
+	top: 0px;
+	
+	
+	margin-top: 20px;
+	letter-spacing: 3px;
+	transition: all 500ms ease-in-out;
+	font-weight: bolder;
+	text-shadow: 4px 6px 4px yellow;
+	width: 100%;
+}
+#auto:hover{
+	color: blue;
+	cursor:pointer;
+	font-size: 45px;
+}
+body{
+	background-color: #f3f3f3;
+	background-image: url(img/g8HniPf.jpg);
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+	min-width: 30%;
+	
+	
+}
+#footer{
+	width:100%;
+	height: 1000px;
+
+}
+p{
+	text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+	color: blue;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	position: absolute;
+	top: 1000px;
+	left: 120px;
+	text-shadow: 6px 6px 6px white;
+	font-weight: bold;
+	font-stretch: extra-condensed;
+}
+#imga1{
+	float: :right;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	transition: all 500ms ease-in-out;
+	margin-top: 850px;
+	z-index: 2000;
+
+
+
+}
+#imga2{
+	position: absolute;
+	left: 27%;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	transition: all 500ms ease-in-out;
+	margin-top: 850px;
+
+}
+#imga3{
+	position: absolute;
+	left: 2%;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	transition: all 500ms ease-in-out;
+	margin-top: 850px;
+
+}
+#imga4{
+	position: absolute;
+	left: 52%;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	transition: all 500ms ease-in-out;
+	margin-top: 850px;
+
+}
+#imga1:hover{
+	width: 350px;
+	height: 250px;
+	cursor: pointer;
+	z-index: 2000;
+}
+#imga2:hover{
+	width: 350px;
+	height: 250px;
+	cursor: pointer;
+	z-index: 2000;
+}
+#imga3:hover{
+	width: 350px;
+	height: 250px;
+	cursor: pointer;
+	z-index: 2000;
+}
+#imga4:hover{
+	width: 350px;
+	cursor: pointer;
+	height: 250px;
+	z-index: 2000;
+}
+#inf1{
+	position:absolute;
+	top:1150px; 
+	margin-left: 360px;
+	line-height: 40px;
+	background-color: white;
+	font-family: sans-serif;
+	width: 300px;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-top: 5px;
+	color: maroon;
+	height: 270px;
+	background:transparent;
+	font-weight: bold;
+	transition: all 500ms linear;
+	overflow: hidden;
+}
+strong{
+	color: yellow;
+}
+#inf2{
+	position:absolute;
+	top:1150px; 
+	margin-left: 0px;
+	line-height: 30px;
+	background-color: white;
+	font-family: sans-serif;
+	width: 300px;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-top: 5px;
+	color: maroon;
+	margin-left: 15px;
+	background:transparent;
+	font-weight: bold;
+	transition: all 500ms linear;
+	overflow: hidden;
+}
+#inf3{
+	position:absolute;
+	top:1150px; 
+	line-height: 34px;
+	background-color: white;
+	font-family: sans-serif;
+	width: 300px;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-top: 5px;
+	color: maroon;
+	margin-left: 700px;
+	background:transparent;
+	font-weight: bold;
+	transition: all 500ms linear;
+	overflow: hidden;
+}
+#inf4{
+	position:absolute;
+	top:1150px; 
+	line-height: 40px;
+	background-color: white;
+	font-family: sans-serif;
+	width: 250px;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-top: 5px;
+	color: maroon;
+	margin-left: 1070px;
+	background:transparent;
+	font-weight: bold;
+	transition: all 500ms linear;
+	overflow: hidden;
+}
+#inf1:hover{
+	background-color: white;
+}
+#inf2:hover{
+	background-color: white;
+}
+#inf3:hover{
+	background-color: white;
+}
+#inf4:hover{
+	background-color: white;
+}
+#last{
+	position: absolute;
+	top: 1630px;
+	width: 100%;
+
+	
+
+}
+#map1{
+	width:100%;
+	height:370px;
+	border-radius: 10px;
+	z-index: 1000;
+
+}
+#contact{
+	position: absolute;
+	top:1900px;
+	width: 100%;
+	height: 200px;
+	background-color: #001f3f;
+	
+}
+#offer{
+	position: absolute;
+	top:0px;
+
+color : white;
+	font-size: 30px;
+font-family: sans-serif;
+transition: all 500ms linear;
+width: 80%;
+
+text-shadow: 4px 4px 4px black;
+}
+.fa-google-plus{
+	margin-top: 65px;
+	margin-left: 100px;
+}
+.fa-whatsapp{
+	margin-top: 56px;
+	margin-left: 100px;
+}
+h3{
+	margin-top: -30px;
+	margin-left: 200px;
+	color:white;
+	font-family: sans-serif;
+}h5{
+
+	margin-top: -50px;
+	margin-left: 100px;
+	color:white;
+	font-family: sans-serif;
+	font-size: 20px;
+}
